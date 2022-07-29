@@ -1,0 +1,185 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.context {
+  background-color:#3C7F8A;
+  /* background-color: #e6b767; */
+  display: flex;
+  flex-direction: row;
+  height: 470px;
+}
+
+.icon1 {
+  position: absolute;
+  color: #3c7f8a;
+  font-size: 28px;
+  top: 119px;
+  opacity: 0.4;
+  right: 30px;
+}
+
+.icon2 {
+  position: absolute;
+  color: #3c7f8a;
+  opacity: 0.4;
+  font-size: 30px;
+  top: 168px;
+  right: 30px;
+}
+
+.imageBox {
+  /* background-color: red; */
+  position: relative;
+
+  top: 100px;
+  left: -30px;
+  height: 500px;
+  width: 700px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+img:nth-child(1) {
+  width: 130px;
+  height: 70px;
+
+  bottom: 10px;
+  right: 80px;
+
+  z-index: 1;
+}
+
+img:nth-child(2) {
+  width: 16px;
+  height: 70px;
+
+  transform: rotate(-10deg);
+  top: 90px;
+  left: 245px;
+}
+
+img:nth-child(3) {
+  top: 120px;
+  right: 140px;
+  width: 350px;
+  height: 350px;
+
+  z-index: 1;
+}
+
+img:nth-child(4) {
+  top: 80px;
+  right: 60px;
+
+  width: 120px;
+  height: 120px;
+}
+
+img:nth-child(5) {
+  top: 50px;
+  right: 215px;
+
+  width: 100px;
+  height: 70px;
+}
+
+img:nth-child(6) {
+  top: 174px;
+  right: 118px;
+
+  width: 100px;
+  height: 70px;
+}
+
+img:nth-child(7) {
+  top: 130px;
+  left: 185px;
+  transform: rotate(-30deg);
+
+  width: 60px;
+  height: 80px;
+}
+
+.card {
+  position: absolute;
+  /* background-color: white; */
+
+  display: flex;
+  flex-direction: column;
+
+  top: 250px;
+  right: 50px;
+  width: 450px;
+  height: 280px;
+  color: white;
+  padding: 20px;
+
+  border-radius: 8px;
+
+  background-color: rgb(100%, 100%, 100%, 0.4);
+  border: 2px solid rgb(100%, 100%, 100%, 0.9);
+  box-shadow: 2px 2px 10px 2px rgb(0%, 0%, 0%, 0.3);
+}
+
+::placeholder {
+  color: #3c808a81;
+  padding: 10px;
+}
+
+p,
+h2 {
+  color: #3c7f8a;
+}
+
+p > a {
+  font-size: 19px;
+  color: #3c7f8a;
+}
+
+p a:hover {
+  color: rgb(46, 0, 249);
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  height: 43px;
+  margin: 3px 0px;
+  border: none;
+  outline: none;
+  /* background-color: #3c7f8a; */
+  /* color: white; */
+  /* background-color: red; */
+}
+
+.login {
+  margin-top: 28px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 100%;
+  margin: 11px 0px 0px 0px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  /* background-color: #c28295; */
+  background-color: #3c7f8a;
+  color: white;
+  /* background-color: red; */
+
+  cursor: pointer;
+}
